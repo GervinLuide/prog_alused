@@ -1,0 +1,11 @@
+from  tkinter import *
+raam = Tk()
+raam.title("Maja")
+tahvel = Canvas(raam, width = 700, height = 700, background = "light blue" )
+tahvel.create_rectangle(0, 550, 700, 700, fill = "green")
+tahvel.create_rectangle(80, 610, 600, 300, fill = "light grey" )
+tahvel.create_rectangle(120, 610, 240, 420, fill = "#654321" )
+tahvel.create_rectangle(170, 150, 240, 260, fill = "brown")
+tahvel.create_polygon(80, 300, 340, 100, 600, 300, fill = "darkslategrey")
+tahvel.pack()
+raam.mainloop()
